@@ -1,8 +1,38 @@
-/*
 table, th, td{
     border: 1px solid black;
     border-collapse: collapse;
     text-align: center;
     width: 500px;
 }
-*/
+
+h1 {
+	color: #a3163c;
+	text-align: center;
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+
+h1:hover{
+	color:pink;
+}
+
+
+
+.tabla th {
+	color: red;
+}
+
+.tabla td {
+	color: yellow;
+	
+}
+
+.tabla{
+	margin-left: 22%;
+}
+
+img {
+	height: 50px;
+	width: 50px;
+}
+
