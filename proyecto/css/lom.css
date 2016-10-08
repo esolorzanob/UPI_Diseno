@@ -7,8 +7,8 @@
     background-image: url("../imgs/SwordManaTree.png");
     background-repeat: no-repeat;       
     background-size: 100%;
-    opacity: 0.1;
-    filter:alpha(opacity=10);
+    opacity: 0.3;
+    filter:alpha(opacity=30);
     z-index:-1;
 }
 
