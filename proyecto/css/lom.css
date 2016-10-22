@@ -1,3 +1,13 @@
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 10px;  
+  background-color: #efefef;
+  text-align: center;
+}
+
 #background{
     position: fixed;
     top: 0;
@@ -7,16 +17,19 @@
     background-image: url("../imgs/SwordManaTree.png");
     background-repeat: no-repeat;       
     background-size: 100%;
-    opacity: 0.3;
-    filter:alpha(opacity=30);
+    opacity: 0.3;   
     z-index:-1;
 }
+
 
 .title{
     text-align: center;
     font-family: 'Merriweather', serif;
     font-size: 5em;
     color: #5881c4;
+	background-color: pink;
+	margin-left: 25%;
+	margin-right: 25%;
 }
 .quote{
     font-size: 2em;
@@ -27,14 +40,16 @@
 }
 
 .table{
-    margin-top: 100px;
-     margin-left:auto; 
+    margin-top: 50px;
+    margin-left:auto; 
     margin-right:auto;
 }
 
 .table th{
-    font-size: 2em;
+    font-size: 2em;	
     padding-right: 25px;
+	
+	
 }
 
 a:link, a:visited {
@@ -51,15 +66,7 @@ a:hover, a:active {
     background-color: green;
 }
 
-.footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: #efefef;
-  text-align: center;
-}
+
 
 .footerImage{
     height: 100px;
@@ -78,4 +85,5 @@ a:hover, a:active {
     border-collapse: collapse;
     text-align: center;
     width: 500px;
+	font-size: 2em;
 }

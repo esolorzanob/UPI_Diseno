@@ -1,0 +1,52 @@
+
+.imagen{
+	width: 150px;
+	height: 150px;
+	float: right;
+	margin-right: 30px;
+	padding-top:  25px;
+}
+body{
+	background-image: url('../imgs/patronFondo.jpg');
+}
+#tituloContainer{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;	
+	text-align: center;
+	background: linear-gradient(#f29341, #995316);
+	padding-bottom: 30px;
+}
+
+.link{
+	font-size: 1.5em;
+	margin-right: 50px;
+}
+
+#parrafoContainer{
+	
+	background-color: lightgrey;
+	margin: 200px 200px 25px 200px;
+	height: 85%;
+}
+
+.parrafo{
+	padding: 80px ;
+	font-style: 1.5em;
+}
+
+.palabraContainer{
+	padding: 30px;
+}
+
+.palabraTitulo{
+	color: blue;
+}
+
+.origen{
+	color: green;	
+}
+.tipo{
+	color: cadetblue;
+}
