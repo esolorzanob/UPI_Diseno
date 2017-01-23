@@ -1,0 +1,18 @@
+/*
+body{
+    font-style: italic;
+    font-weight: bold;
+}
+table th{
+    color: blue;
+}
+table tr{
+    color: seagreen;
+}
+table, th, td{
+    border: 1px solid black;
+}
+table {
+    border-collapse: collapse;
+}
+*/
