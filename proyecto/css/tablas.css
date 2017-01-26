@@ -1,18 +1,34 @@
-/*
 body{
-    font-style: italic;
-    font-weight: bold;
+	background-color: #8bd5dd;
+	//background-image: url("../imgs/descarga.jpg");
 }
-table th{
-    color: blue;
+#titulo{
+	color: seagreen;
 }
-table tr{
-    color: seagreen;
-}
+
 table, th, td{
     border: 1px solid black;
 }
 table {
     border-collapse: collapse;
 }
-*/
+.cabeza{
+	text-align: center;
+	color: red;
+}
+td{
+	text-align: center;
+}
+.morado{
+	color: purple;
+}
+.amarillo{
+	color:  yellow;
+}
+.azul{
+	color: blue;
+}
+.imagen{
+	width:50px;
+	height:50px;
+}
