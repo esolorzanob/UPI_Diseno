@@ -17,7 +17,7 @@
     background-image: url("../imgs/SwordManaTree.png");
     background-repeat: no-repeat;       
     background-size: 100%;
-    opacity: 0.3;   
+    opacity: 0.3;   	
     z-index:-1;
 }
 
